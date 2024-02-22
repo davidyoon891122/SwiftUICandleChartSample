@@ -18,6 +18,8 @@ struct ContentView: View {
     
     let xValue: [Int] = Array(0...100)
     
+    @State private var scollPosition: Int = 65
+    
     var body: some View {
         Chart {
             ForEach(0...100, id:\.self) { index in
@@ -33,11 +35,14 @@ struct ContentView: View {
         .chartXAxis(content: {
             AxisMarks(position: .bottom, values: xValue)
         })
+        .chartScrollPosition(x: $scollPosition)
         .chartXVisibleDomain(length: 10)
-        .chartScrollPosition(initialX: 65)
         .chartScrollableAxes(.horizontal)
         .frame(height: 200)
         .padding(.horizontal)
+        .onChange(of: scollPosition) {
+            print("CurrentPosition: \($0)")
+        }
     }
 }
 
