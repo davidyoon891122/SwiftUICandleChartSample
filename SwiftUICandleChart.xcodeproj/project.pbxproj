@@ -11,6 +11,8 @@
 		AD61859E2B86C25200346DE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61859D2B86C25200346DE1 /* ContentView.swift */; };
 		AD6185A02B86C25400346DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61859F2B86C25400346DE1 /* Assets.xcassets */; };
 		AD6185A32B86C25400346DE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6185A22B86C25400346DE1 /* Preview Assets.xcassets */; };
+		AD6185AA2B86C28F00346DE1 /* CandleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6185A92B86C28F00346DE1 /* CandleModel.swift */; };
+		AD6185AD2B86C72400346DE1 /* CandleStickMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6185AC2B86C72400346DE1 /* CandleStickMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AD61859D2B86C25200346DE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD61859F2B86C25400346DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6185A22B86C25400346DE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD6185A92B86C28F00346DE1 /* CandleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleModel.swift; sourceTree = "<group>"; };
+		AD6185AC2B86C72400346DE1 /* CandleStickMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleStickMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				AD61859D2B86C25200346DE1 /* ContentView.swift */,
 				AD61859F2B86C25400346DE1 /* Assets.xcassets */,
 				AD6185A12B86C25400346DE1 /* Preview Content */,
+				AD6185AB2B86C70700346DE1 /* Model */,
+				AD6185AC2B86C72400346DE1 /* CandleStickMark.swift */,
 			);
 			path = SwiftUICandleChart;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				AD6185A22B86C25400346DE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD6185AB2B86C70700346DE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD6185A92B86C28F00346DE1 /* CandleModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6185AD2B86C72400346DE1 /* CandleStickMark.swift in Sources */,
+				AD6185AA2B86C28F00346DE1 /* CandleModel.swift in Sources */,
 				AD61859E2B86C25200346DE1 /* ContentView.swift in Sources */,
 				AD61859C2B86C25200346DE1 /* SwiftUICandleChartApp.swift in Sources */,
 			);
