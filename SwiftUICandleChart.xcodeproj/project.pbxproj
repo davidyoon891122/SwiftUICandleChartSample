@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49FA1A992B8B0EBA00AF9A56 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA1A982B8B0EBA00AF9A56 /* ChartView.swift */; };
+		49FA1A9B2B8B0EF000AF9A56 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA1A9A2B8B0EF000AF9A56 /* ChartViewModel.swift */; };
 		AD61859C2B86C25200346DE1 /* SwiftUICandleChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61859B2B86C25200346DE1 /* SwiftUICandleChartApp.swift */; };
 		AD61859E2B86C25200346DE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61859D2B86C25200346DE1 /* ContentView.swift */; };
 		AD6185A02B86C25400346DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61859F2B86C25400346DE1 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49FA1A982B8B0EBA00AF9A56 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		49FA1A9A2B8B0EF000AF9A56 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
 		AD6185982B86C25200346DE1 /* SwiftUICandleChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICandleChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD61859B2B86C25200346DE1 /* SwiftUICandleChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICandleChartApp.swift; sourceTree = "<group>"; };
 		AD61859D2B86C25200346DE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				AD6185A12B86C25400346DE1 /* Preview Content */,
 				AD6185AB2B86C70700346DE1 /* Model */,
 				AD6185AC2B86C72400346DE1 /* CandleStickMark.swift */,
+				49FA1A982B8B0EBA00AF9A56 /* ChartView.swift */,
+				49FA1A9A2B8B0EF000AF9A56 /* ChartViewModel.swift */,
 			);
 			path = SwiftUICandleChart;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				AD6185AD2B86C72400346DE1 /* CandleStickMark.swift in Sources */,
 				AD6185AA2B86C28F00346DE1 /* CandleModel.swift in Sources */,
 				AD61859E2B86C25200346DE1 /* ContentView.swift in Sources */,
+				49FA1A9B2B8B0EF000AF9A56 /* ChartViewModel.swift in Sources */,
+				49FA1A992B8B0EBA00AF9A56 /* ChartView.swift in Sources */,
 				AD61859C2B86C25200346DE1 /* SwiftUICandleChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICandleChart/Preview Content\"";
-				DEVELOPMENT_TEAM = HDFLLXK789;
+				DEVELOPMENT_TEAM = R6V3UCSNG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -317,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICandleChart/Preview Content\"";
-				DEVELOPMENT_TEAM = HDFLLXK789;
+				DEVELOPMENT_TEAM = R6V3UCSNG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
